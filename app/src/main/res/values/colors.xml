@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackgroundWindow">#3F51B5</color>
+    <color name="colorTextLight">#fff</color>
+    <color name="colorTextDark">#000</color>
+    <color name="colorButton">#FF5722</color>
+    <color name="colorPriorityOne">#D50000</color>
+    <color name="colorPriorityTwo">#00C853</color>
+    <color name="colorPriorityThree">#FFD600</color>
+    <color name="colorActionBar">#1A256C</color>
+</resources>

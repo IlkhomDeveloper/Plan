@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/newPlan"
+        android:title="New plan"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/home"
+        android:title="About"
+        android:icon="@drawable/ic_info_outline"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/instructions"
+        android:title="Instructions"
+        android:icon="@drawable/ic_instructions"
+        app:showAsAction="withText"/>
+</menu>

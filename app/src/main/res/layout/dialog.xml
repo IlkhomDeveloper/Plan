@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="time"
+        android:background="@drawable/back_item_plan"
+        android:clickable="true"
+        android:padding="8dp"
+        android:id="@+id/dialogTime"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:hint="time"/>
+    <EditText
+        android:id="@+id/dialogName"
+        android:maxLines="1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="name"/>
+    <EditText
+        android:id="@+id/dialogInfo"
+        android:maxLines="1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="info"/>
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/dialogHashTag"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="hashtage"/>
+
+</LinearLayout>

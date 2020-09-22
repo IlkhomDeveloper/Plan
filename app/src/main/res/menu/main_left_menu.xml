@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeMainPage"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/basketPlans"
+            android:icon="@drawable/ic_event_note"
+            android:title="All notes"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings"
+            app:showAsAction="withText" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="share"
+            android:visible="true"
+            app:showAsAction="withText" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/instructions"
+            android:icon="@drawable/ic_info_outline"
+            android:title="How to use"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/conditionals"
+            android:icon="@drawable/ic_conditionals"
+            android:title="Terms and conditionals"
+            app:showAsAction="withText" />
+    </group>
+</menu>
